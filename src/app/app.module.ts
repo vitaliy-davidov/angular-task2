@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { SearchPipe } from './search.pipe';
 import { HomePageComponent } from './home-page/home-page.component';
 import { SetupPageComponent } from './setup-page/setup-page.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [		
@@ -21,6 +22,7 @@ import { SetupPageComponent } from './setup-page/setup-page.component';
    ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     HttpClientModule,
     FormsModule
   ],
